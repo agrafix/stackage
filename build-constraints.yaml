@@ -1516,14 +1516,14 @@ packages:
         - prefix-units
 
     "Alexander Thiemann <mail@athiemann.net> @agrafix":
-        - Spock < 0 # GHC 8.4 via Spock-core
-        - Spock-core < 0 # GHC 8.4 via reroute
-        - Spock-api < 0 # GHC 8.4 via reroute
-        - Spock-api-server < 0 # GHC 8.4 via Spock-api
+        - Spock
+        - Spock-core
+        - Spock-api
+        - Spock-api-server
         - Spock-worker < 0 # GHC 8.4 via Spock
         - graph-core
         - hvect
-        - reroute < 0 # build faiulre with GHC 8.4 https://github.com/agrafix/Spock/issues/140
+        - reroute
         - users
         # - users-persistent # persistent 2.8
         - users-postgresql-simple < 0 # via postgresql-simple
